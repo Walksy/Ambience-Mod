@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "walksyambience",
+	"version": "${version}",
+
+	"name": "Walksy's Ambience Mod",
+	"description": "Allows you to configure the color of curtain terrains etc: sky and water",
+	"authors": [
+		"Walksy"
+	],
+	"contact": {
+		"homepage": "discord.gg/pHpfAz7VTT"
+	},
+
+	"license": "MIT",
+	"icon": "assets/walksy/icon.png",
+
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"ambience.AmbienceMod"
+		],
+		"modmenu": [
+			"ambience.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"ambience.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"fabric-resource-loader-v0": "*",
+		"fabric-rendering-v1": "*",
+		"fabric-lifecycle-events-v1": "*",
+		"fabric-key-binding-api-v1": "*"
+	}
+}

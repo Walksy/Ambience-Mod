@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "ambience.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ClientWorldMixin",
+    "BiomeColorsMixin"
+
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

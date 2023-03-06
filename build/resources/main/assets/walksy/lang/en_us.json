@@ -1,0 +1,27 @@
+{
+  "config.walksyambience.title": "Configure Ambience (Rejoin server/single-player world to take affect!!!)",
+
+  "config.walksyambience.empty2": "             ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇  SKY  ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇",
+  "config.walksyambience.category.general": "Sky",
+  "config.walksyambience.custom_sky": "Custom Sky Amount",
+  "config.walksyambience.sky_red": "Sky Red Amount",
+  "config.walksyambience.sky_green": "Sky Green Amount",
+  "config.walksyambience.sky_blue": "Sky Blue Amount",
+
+  "config.walksyambience.empty": "            ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇  WATER  ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇",
+
+  "config.walksyambience.custom_water": "Custom Water",
+  "config.walksyambience.water_red": "Water Red Amount",
+  "config.walksyambience.water_green": "Water Green Amount",
+  "config.walksyambience.water_blue": "Water Blue Amount",
+
+  "config.walksyambience.empty3": "             ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇  GRASS  ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇",
+
+  "config.walksyambience.custom_grass": "Custom Grass",
+  "config.walksyambience.grass_red": "Grass Red Amount",
+  "config.walksyambience.grass_green": "Grass Green Amount",
+  "config.walksyambience.grass_blue": "Grass Blue Amount"
+
+
+
+}

@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "ambience/mixin/BiomeColorsMixin": {
+      "getGrassColor": "Lnet/minecraft/class_1163;method_4962(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I",
+      "getWaterColor": "Lnet/minecraft/class_1163;method_4961(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I"
+    },
+    "ambience/mixin/ClientWorldMixin": {
+      "getSkyColor": "Lnet/minecraft/class_638;method_23777(Lnet/minecraft/class_243;F)Lnet/minecraft/class_243;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "ambience/mixin/BiomeColorsMixin": {
+        "getGrassColor": "Lnet/minecraft/class_1163;method_4962(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I",
+        "getWaterColor": "Lnet/minecraft/class_1163;method_4961(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I"
+      },
+      "ambience/mixin/ClientWorldMixin": {
+        "getSkyColor": "Lnet/minecraft/class_638;method_23777(Lnet/minecraft/class_243;F)Lnet/minecraft/class_243;"
+      }
+    }
+  }
+}
