@@ -13,39 +13,39 @@ import static ambience.util.Localization.localized;
 public final class ClothConfigScreenFactory {
 	static Screen genConfig(Screen parent) {
 		ConfigBuilder builder = ConfigBuilder.create()
-			.setParentScreen(parent)
-			.setTitle(localized("config", "title"))
-			.setSavingRunnable(AmbienceMod.config::save);
+				.setParentScreen(parent)
+				.setTitle(localized("config", "title"))
+				.setSavingRunnable(AmbienceMod.config::save);
 		ConfigEntryBuilder entryBuilder = builder.entryBuilder();
-		
+
 		// general
 		//sky
 		builder.getOrCreateCategory(localized("config", "category.general"))
 
 				.addEntry(entryBuilder
 						.startTextDescription(
-								localized("config", "empty2")
+								localized("config", "empty")
 						)
 						.build()
 				)
 
-			.addEntry(entryBuilder
-				.startBooleanToggle(
-					localized("config", "custom_sky"),
-					AmbienceMod.config.customSky
+				.addEntry(entryBuilder
+						.startBooleanToggle(
+								localized("config", "custom_sky"),
+								AmbienceMod.config.customSky
+						)
+						.setSaveConsumer(value -> AmbienceMod.config.customSky = value)
+						.build()
 				)
-				.setSaveConsumer(value -> AmbienceMod.config.customSky = value)
-				.build()
-			)
-			.addEntry(entryBuilder
-				.startIntSlider(
-					localized("config", "sky_red"),
-					AmbienceMod.config.skyRed,
-					0, 255
+				.addEntry(entryBuilder
+						.startIntSlider(
+								localized("config", "sky_red"),
+								AmbienceMod.config.skyRed,
+								0, 255
+						)
+						.setSaveConsumer(value -> AmbienceMod.config.skyRed = value)
+						.build()
 				)
-				.setSaveConsumer(value -> AmbienceMod.config.skyRed = value)
-				.build()
-			)
 				.addEntry(entryBuilder
 						.startIntSlider(
 								localized("config", "sky_green"),
@@ -66,51 +66,228 @@ public final class ClothConfigScreenFactory {
 				)
 
 
+
+
+
+
+
+
+
+
+
+
+				.addEntry(entryBuilder
+						.startBooleanToggle(
+								localized("config", "custom_sky_end"),
+								AmbienceMod.config.customSkyEnd
+						)
+						.setSaveConsumer(value -> AmbienceMod.config.customSkyEnd = value)
+						.build()
+				)
+				.addEntry(entryBuilder
+						.startIntSlider(
+								localized("config", "sky_red_end"),
+								AmbienceMod.config.skyRedEnd,
+								0, 255
+						)
+						.setSaveConsumer(value -> AmbienceMod.config.skyRedEnd = value)
+						.build()
+				)
+				.addEntry(entryBuilder
+						.startIntSlider(
+								localized("config", "sky_green_end"),
+								AmbienceMod.config.skyGreenEnd,
+								0, 255
+						)
+						.setSaveConsumer(value -> AmbienceMod.config.skyGreenEnd = value)
+						.build()
+				)
+				.addEntry(entryBuilder
+						.startIntSlider(
+								localized("config", "sky_blue_end"),
+								AmbienceMod.config.skyBlueEnd,
+								0, 255
+						)
+						.setSaveConsumer(value -> AmbienceMod.config.skyBlueEnd = value)
+						.build()
+				)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				.addEntry(entryBuilder
 						.startTextDescription(
-								localized("config", "empty")
+								localized("config", "empty1")
 						)
 						.build()
 				)
 
 
-						//water
-						.addEntry(entryBuilder
-								.startBooleanToggle(
-										localized("config", "custom_water"),
-										AmbienceMod.config.customWater
-								)
-								.setSaveConsumer(value -> AmbienceMod.config.customWater = value)
-								.build()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				.addEntry(entryBuilder
+						.startBooleanToggle(
+								localized("config", "custom_cloud"),
+								AmbienceMod.config.customCloud
 						)
-						.addEntry(entryBuilder
-								.startIntSlider(
-										localized("config", "water_red"),
-										AmbienceMod.config.waterRed,
-										0, 255
-								)
-								.setSaveConsumer(value -> AmbienceMod.config.waterRed = value)
-								.build()
+						.setSaveConsumer(value -> AmbienceMod.config.customCloud = value)
+						.build()
+				)
+				.addEntry(entryBuilder
+						.startIntSlider(
+								localized("config", "cloud_red"),
+								AmbienceMod.config.cloudRed,
+								0, 255
 						)
-						.addEntry(entryBuilder
-								.startIntSlider(
-										localized("config", "water_green"),
-										AmbienceMod.config.waterGreen,
-										0, 255
-								)
-								.setSaveConsumer(value -> AmbienceMod.config.waterGreen = value)
-								.build()
+						.setSaveConsumer(value -> AmbienceMod.config.cloudRed = value)
+						.build()
+				)
+				.addEntry(entryBuilder
+						.startIntSlider(
+								localized("config", "cloud_green"),
+								AmbienceMod.config.cloudGreen,
+								0, 255
 						)
-						.addEntry(entryBuilder
-								.startIntSlider(
-										localized("config", "water_blue"),
-										AmbienceMod.config.waterBlue,
-										0, 255
-								)
-								.setSaveConsumer(value -> AmbienceMod.config.waterBlue = value)
-								.build()
+						.setSaveConsumer(value -> AmbienceMod.config.cloudGreen = value)
+						.build()
+				)
+				.addEntry(entryBuilder
+						.startIntSlider(
+								localized("config", "cloud_blue"),
+								AmbienceMod.config.cloudBlue,
+								0, 255
 						)
+						.setSaveConsumer(value -> AmbienceMod.config.cloudBlue = value)
+						.build()
+				)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				.addEntry(entryBuilder
+						.startTextDescription(
+								localized("config", "empty2")
+						)
+						.build()
+				)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				//water
+				.addEntry(entryBuilder
+						.startBooleanToggle(
+								localized("config", "custom_water"),
+								AmbienceMod.config.customWater
+						)
+						.setSaveConsumer(value -> AmbienceMod.config.customWater = value)
+						.build()
+				)
+				.addEntry(entryBuilder
+						.startIntSlider(
+								localized("config", "water_red"),
+								AmbienceMod.config.waterRed,
+								0, 255
+						)
+						.setSaveConsumer(value -> AmbienceMod.config.waterRed = value)
+						.build()
+				)
+				.addEntry(entryBuilder
+						.startIntSlider(
+								localized("config", "water_green"),
+								AmbienceMod.config.waterGreen,
+								0, 255
+						)
+						.setSaveConsumer(value -> AmbienceMod.config.waterGreen = value)
+						.build()
+				)
+				.addEntry(entryBuilder
+						.startIntSlider(
+								localized("config", "water_blue"),
+								AmbienceMod.config.waterBlue,
+								0, 255
+						)
+						.setSaveConsumer(value -> AmbienceMod.config.waterBlue = value)
+						.build()
+				)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				//grass
+
 
 				.addEntry(entryBuilder
 						.startTextDescription(
@@ -118,6 +295,27 @@ public final class ClothConfigScreenFactory {
 						)
 						.build()
 				)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 				.addEntry(entryBuilder
 						.startBooleanToggle(
@@ -146,21 +344,21 @@ public final class ClothConfigScreenFactory {
 						.build()
 				)
 				.addEntry(entryBuilder
-								.startIntSlider(
-										localized("config", "grass_blue"),
-										AmbienceMod.config.grassBlue,
-										0, 255
-								)
-								.setSaveConsumer(value -> AmbienceMod.config.grassBlue = value)
-								.build()
-						);
+						.startIntSlider(
+								localized("config", "grass_blue"),
+								AmbienceMod.config.grassBlue,
+								0, 255
+						)
+						.setSaveConsumer(value -> AmbienceMod.config.grassBlue = value)
+						.build()
+				);
 
 
 
 
 
 
-				//lava
+		//lava
 				/*.addEntry(entryBuilder
 						.startBooleanToggle(
 								localized("config", "custom_lava"),

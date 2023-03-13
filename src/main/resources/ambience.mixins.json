@@ -5,10 +5,8 @@
   "mixins": [
   ],
   "client": [
-    "ClientWorldMixin",
-    "BiomeColorsMixin"
-
-
+    "BiomeColorsMixin",
+    "ClientWorldMixin"
   ],
   "injectors": {
     "defaultRequire": 1

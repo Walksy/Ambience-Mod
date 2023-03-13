@@ -11,13 +11,30 @@ public final class AmbienceConfig {
 	private transient File file;
 
 
+
 //sky
 
 	public boolean customSky = false;
-
 	public int skyBlue = 1;
 	public int skyRed = 1;
 	public int skyGreen = 1;
+
+	public boolean customSkyEnd = false;
+	public int skyBlueEnd= 1;
+	public int skyRedEnd = 1;
+	public int skyGreenEnd = 1;
+
+
+
+
+
+	//cloud
+
+	public boolean customCloud = false;
+
+	public int cloudBlue = 1;
+	public int cloudRed = 1;
+	public int cloudGreen = 1;
 
 	//water
 

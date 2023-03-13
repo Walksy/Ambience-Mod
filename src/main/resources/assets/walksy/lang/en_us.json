@@ -1,14 +1,26 @@
 {
   "config.walksyambience.title": "Configure Ambience (Rejoin server/single-player world to take affect!!!)",
 
-  "config.walksyambience.empty2": "             ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇  SKY  ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇",
+  "config.walksyambience.empty": "             ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇  SKY  ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇",
   "config.walksyambience.category.general": "Sky",
-  "config.walksyambience.custom_sky": "Custom Sky Amount",
-  "config.walksyambience.sky_red": "Sky Red Amount",
-  "config.walksyambience.sky_green": "Sky Green Amount",
-  "config.walksyambience.sky_blue": "Sky Blue Amount",
+  "config.walksyambience.custom_sky": "OverWorld Sky",
+  "config.walksyambience.sky_red": "OverWorld Sky Red Amount",
+  "config.walksyambience.sky_green": "OverWorld Sky Green Amount",
+  "config.walksyambience.sky_blue": "OverWorld Sky Blue Amount",
 
-  "config.walksyambience.empty": "            ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇  WATER  ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇",
+  "config.walksyambience.custom_sky_end": "End Sky",
+  "config.walksyambience.sky_red_end": "End Sky Red Amount",
+  "config.walksyambience.sky_green_end": "End Sky Green Amount",
+  "config.walksyambience.sky_blue_end": "End Sky Blue Amount",
+
+  "config.walksyambience.empty1": "            ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇  CLOUD  ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇",
+
+  "config.walksyambience.custom_cloud": "Custom Cloud",
+  "config.walksyambience.cloud_red": "Cloud Red Amount",
+  "config.walksyambience.cloud_green": "Cloud Green Amount",
+  "config.walksyambience.cloud_blue": "Cloud Blue Amount",
+
+  "config.walksyambience.empty2": "            ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇  WATER  ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇",
 
   "config.walksyambience.custom_water": "Custom Water",
   "config.walksyambience.water_red": "Water Red Amount",

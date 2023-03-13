@@ -2,6 +2,7 @@ package ambience.mixin;
 
 import ambience.util.Color;
 import net.minecraft.client.color.world.BiomeColors;
+import net.minecraft.client.render.item.ItemRenderer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockRenderView;
 import org.spongepowered.asm.mixin.Mixin;
@@ -27,7 +28,6 @@ public class BiomeColorsMixin {
             info.cancel();
         }
     }
-
 
     @Inject(method = "getGrassColor", at = @At("HEAD"), cancellable = true)
     private static void onGetGrassColor(BlockRenderView world, BlockPos pos, CallbackInfoReturnable<Integer> info) {
